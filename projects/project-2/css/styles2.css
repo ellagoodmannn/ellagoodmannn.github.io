@@ -1,0 +1,32 @@
+body{
+    background-color: #774397;
+    max-width: 50%;
+    margin-left: 50%;
+}
+p{
+    font-size: 20 px;
+    font-family: Helvetica;
+    color: blue;
+}
+.intro-text{
+    background-color: rgb(245, 245, 7);
+    font-family: sans-serif;
+    color: blue
+}
+img{
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.navigation{
+left: 0;
+}
+h1{
+    font-family: Helvetica;
+    color: greenyellow
+}
+
+.alert-button{
+position: fixed;
+}

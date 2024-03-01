@@ -1,0 +1,23 @@
+body{
+    background-color: #d0eae6;
+    max-width: 50%;
+    margin-left: 50%;
+}
+p{
+    font-size: 20 px;
+    font-family: Helvetica;
+}
+.intro-text{
+    background-color: rgb(50, 50, 35);
+    font-family: sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.navigation{
+position: fixed;
+left: 0;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #f90505;
+    max-width: 50%;
+    container: 50%;
+    margin: auto;
+    mix-blend-mode: difference;
+}
+p{
+    font-size: 20 px;
+    font-family: Helvetica;
+    color: transparent;
+}
+.intro-text{
+    background-color: rgb(245, 245, 7);
+    font-family: sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.navigation{
+position: center;
+left: 0;
+}
+h2{
+    font-family: Helvetica;
+    color: greenyellow
+}
