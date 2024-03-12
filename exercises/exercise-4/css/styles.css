@@ -1,0 +1,126 @@
+body {
+    background-color: #d0eae6;
+    display: block;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+    align-items: start;
+    font-family: 'Lato';
+    position:relative;
+}
+
+p {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.intro-text {
+    background-color: rgb(50, 50, 35);
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+
+.navigation {
+    top: 2rem;
+    border: 2px solid red;
+    position: relative;
+    padding: 1rem;
+    margin: 3rem;
+    display: none;
+}
+
+.navigation ol {
+    list-style: none;
+}
+
+.navigation li {
+    border-bottom: 1 px olivedrab;
+    /* border-width, border-style, border-color */
+}
+
+.navigation a:hover {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    color: rgb(12, 12, 12);
+
+    transition: color 1s ease;
+}
+
+@media screen and (min-width: 40rem) {
+    body {
+
+    }
+
+    .navigation {
+        display: block;
+    }
+
+
+}
+
+
+@media screen and (min-width: 60rem) {
+    body {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 400 px 1 fr;
+    }
+
+    .navigation {
+        position: sticky;
+        top: 2rem;
+    }
+}
+
+
+:target:before {
+    content: "🗣";
+    display: inline-block;
+    animation: current-header 1s ease infinite reverse;
+}
+
+@keyframes current-header {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(9);
+    }
+
+}
+
+@font-face {
+    font-family: "Absans";
+    src: url("../fonts/web/web/Absans-Regular.woff2");
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Absans', 'Sprat';
+}
+
+h2 {
+    font-family: 'Absans', 'Sprat';
+}
+
+h3 {
+    font-family: 'Absans', 'Sprat';
+}
+
+h4 {
+    font-family: 'Absans', 'Sprat';
+}
+
+p {
+    font-family: 'Absans', 'Verdana', sans-serif, 'Sprat';
+}
